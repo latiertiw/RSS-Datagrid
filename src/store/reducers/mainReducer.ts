@@ -12,8 +12,6 @@ const mainReducer = (state: MainReducerState = initialState, action: any) => {
 				...state,
 			};
 		case actionTypes.SET_DATA:
-			console.log(228);
-			console.log(action.data);
 			return {
 				...state,
 				data: action.data,

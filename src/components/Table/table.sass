@@ -2,9 +2,48 @@
     background-color: black
     height: 100%
     width: 100%
+    overflow: scroll
 
 
 .virtualization
     position: absolute
     top: 20px
     right: 40px
+
+.checkboxes
+    position: absolute
+    top: 20px
+    right: 200px
+
+.sortings
+   
+    width: 100%
+    min-width: 2130px
+    color: red
+    height: 45px
+    border: 1px solid white
+    display: flex
+    &__element
+        display: flex;
+        align-items: center
+        justify-content: center
+        background-color: black
+        padding: 1px
+        color: white
+        min-width: 300px
+        border-right: 1px solid white
+        border-left: 1px solid white
+        &:first-child
+            position: sticky
+            left: 0px
+
+.sort 
+    content: "_______"
+    min-width: 50px
+    display: flex
+    justify-content: center
+
+    cursor: pointer    
+.sort:hover
+    background: red
+    

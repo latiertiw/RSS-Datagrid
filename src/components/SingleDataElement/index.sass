@@ -1,5 +1,6 @@
 .data-element 
     width: 100%
+    min-width: 2130px
     color: red
     height: 45px
     border: 1px solid white
@@ -8,8 +9,13 @@
     &__column
         padding: 1px
         color: white
-        width: 100%
+        min-width: 300px
         border-right: 1px solid white
+        background-color: black
         border-left: 1px solid white
-        
-        
+        &_selected
+            background-color: red
+        &:first-child
+            position: sticky
+            left: 0px
+    

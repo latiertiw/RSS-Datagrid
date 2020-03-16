@@ -1,9 +1,9 @@
 export default interface DataElement {
+    phone: string;
     firstName: string;
     lastName: string;
     age: number;
-    d1: boolean;
-    d2: boolean;
-    d3: boolean;
-    d4: boolean;
+    work: boolean;
+    state: string;
+    city: string;
   }
