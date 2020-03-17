@@ -4,6 +4,6 @@ export default interface DataElement {
     lastName: string;
     age: number;
     work: boolean;
-    state: string;
+    status: string;
     city: string;
   }
